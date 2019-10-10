@@ -1,0 +1,471 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-inp:focus, .sub-inp:focus {outline: none;}
+.main-inp {
+    background: white;
+    color: #777;
+    padding: 18px 12px;
+    border-radius: 0;
+    border: 0 !important;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px !important;
+    border-bottom: 1px solid #ccc !important;
+}
+.sub-inp {
+    background: #eecc4f;
+    padding: 10px;
+    border-radius: 54px !important;
+    width: 100%;
+    margin-bottom: 0;
+    height: 60px !important;
+    border: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+header {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+.head {
+    padding: 30px 0;
+    -webkit-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.brand {}
+.brand a{}
+.brand a img{}
+.top-bar {margin-top: 14px;}
+.top-bar ul{}
+.top-bar ul li{display: inline-block;}
+.top-bar ul li a{display: inline-block;cursor: pointer;margin-left: 20px;}
+.top-bar ul li a i{
+    color: rgba(239,205,79,1)!important;
+    font-size: 36px;
+}
+.top-bar ul li a p{
+    text-transform: uppercase;
+    float: left;
+    margin-left: 20px;
+    color: white;
+
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.top-bar ul li a p strong{
+    display: block;
+    text-align: left;
+}
+
+.icon-box {float: left;}
+.icon-box i{}
+
+.main-menu {
+    -webkit-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.white-bg {
+    background: white;
+    border-radius: 4px;
+    padding: 0 !important;
+    -webkit-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.57s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.menu-left {padding-left: 30px;}
+.menu-left ul{}
+.menu-left ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.menu-left ul li a{
+    display: inline-block;
+    color: #555;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu-right {padding-right: 0;}
+.menu-right ul{}
+.menu-right ul li{display: inline-block;}
+.menu-right ul li a:hover{
+    background: #eecc4f;
+    border-radius: 0px 4px 4px 0px;
+}
+.menu-right ul li a{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 30px;
+    border-left: 1px solid #ccc;
+    line-height: 80px;
+}
+.menu-right ul li a i{
+    font-size: 18px;
+    color: #777;
+    vertical-align: sub;
+}
+
+.banner {
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    padding: 350px 50px 100px;
+    min-height: 900px;
+    height: 100vh;
+}
+.banner h2{
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: 100;
+    color: rgb(177, 177, 177);
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.banner h1{
+    font-size: 75px;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0 50px;
+}
+.banner a{
+    margin-top: 30px;
+}
+.white-btn {
+    display: inline-block;
+    cursor: pointer;
+    background: white;
+    padding: 20px 40px;
+    color: #5a5a5a !important;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #404040;
+    text-transform: uppercase;
+    margin: 10px 0 20px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #404040;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 100;
+    color: rgb(177, 177, 177);
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin: 0;
+}
+p {
+    font-size: 14px;
+    color: #8a8a8a;
+    line-height: 22px;
+    font-weight: 100;
+}
+
+.service-area {padding: 70px 50px;}
+.service-area h4{}
+.service-area h3{margin: 30px 0 20px;}
+.service-area h2{}
+.service-area p{width: 80%;}
+.service-area a{}
+.service-border {border-right: 1px solid #eaeaea;}
+.pd50 {padding-left: 50px;}
+.open-btn {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #edb01f !important;
+    font-weight: 600;
+}
+           
+.about {
+    background: url(../img/ab-img.jpg) #f8f8f8;
+    padding: 100px 0;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 25% 100%;
+}
+.about img{}
+.about h4{}
+.about h2{}
+.about p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.about h3{}
+
+.tab1 {}
+.tab1 h3 i{
+    font-size: 13px;
+    color: #777;
+    margin-right: 10px;
+}
+.tab1 h3, .accordion{
+    text-transform: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    margin-top: -1px;
+    background: #f8f8f8;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    text-align: left;
+}
+.tab1 p, .panel p{
+    margin: 0;
+    font-size: 14px;
+    padding: 20px 20px 20px 45px;
+    background: white;
+    width: 100%;
+}
+
+.tab1.active {}
+.tab1.active h3{}
+.tab1.active p{}
+
+.work {
+    padding: 100px 0;
+}
+.work h4{}
+.work h2{}
+.work img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.quote {
+    background: url(../img/bg-free.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(229, 199, 38, .7);
+}
+.quote h2{color: white;}
+.quote p{color: white;}
+
+.white-bg2 {
+    background: white;
+    border-radius: 4px;
+    padding: 30px;
+    max-width: 500px;
+    float: right;
+}
+.white-bg2 form{}
+
+.foot {
+    padding: 80px 0;
+    background: #262626;
+}
+.foot h2{color:white;}
+.foot p{
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.foot p i{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.foot ul{}
+.foot ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.foot ul li a:hover{color: white;}
+.foot ul li a{
+    color: rgba(255, 255, 255, .7);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.footer {
+    padding: 40px;
+    background: black;
+}
+.footer p{
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, .6);
+    text-transform: uppercase;
+}
+
+
+.side-menu.show{right:0;box-shadow: 0 0 200px black;}
+.side-menu {
+    background: rgba(239,205,79,1);
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: -webkit-fill-available;
+    padding: 40px;
+    -webkit-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+#mm {cursor: pointer;}
+.side-menu span {
+    cursor: pointer;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 6px;
+    text-align: right;
+    border-bottom: 1px solid white;
+    padding-bottom: 12px;
+    width: 100%;
+    display: inline-block;
+}
+.side-menu ul {margin-top: 20px;}
+.side-menu ul li {}
+.side-menu ul li a {
+    font-size: 22px;
+    color: white;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+/*STICKY*/
+
+header.sticky {}
+header.sticky .head{
+    position: fixed;
+    width: 90%;
+    margin: 0;
+    z-index: 9999;
+    padding: 10px 0;
+}
+header.sticky .mstickoff {margin: 0;}
+header.sticky .main-menu {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index: 999;
+    background: rgba(14, 14, 14, 0.4);
+}
+header.sticky .white-bg{
+    margin: 0;
+    float: right;
+    width: 100px;
+    border-radius: 0;
+    background: transparent;
+}
+header.sticky .menu-left{display: none;}
+
+header.sticky .menu-right ul li:first-child{display: none;}
+header.sticky .menu-right ul li a{border: 0;}
+header.sticky .menu-right ul li a i{color: white;}
+header.sticky .hide-sticky {display: none;}
+header.sticky .menu-right ul li a:hover{background: transparent;}
+
+
+/*STICKY END*/
+.pd300 {padding-top: 300px;}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion:focus{outline: none;}
+.accordion {
+
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion.active, .accordion:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  display: none;
+    margin-bottom: 0;
+}
+.nop {width: 90% !important;}
+.pt50 {padding-top: 50px;}
+
+.inner-page {
+    min-height: inherit;
+    height: inherit;
+    padding: 250px 0 0;
+}
+.form2 {max-width: inherit !important;}
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 60em) {
+    
+.about {box-shadow: inset 0 0 0 2000px rgba(248, 248, 248, .8);}
+    
+    
+    
+}
+@media screen and (max-width: 400px) {
+    header.sticky .hide-sticky2 {display: none;}
+}
+@media screen and (max-width: 500px) {
+    .white-bg2 {
+        width: 100%;
+        max-width: inherit;
+    }
+    .banner h1 {
+        font-size: 55px;
+    }
+    .service-border {
+        border-right: 0;
+    }
+    .service-area p {
+        width: 100%;
+    }
+    .pd50 {
+        padding-left: 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
